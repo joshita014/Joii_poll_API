@@ -1,6 +1,7 @@
 # Joii_poll_API
 
 Joii_poll_API is a Polling API which is an Open Application. 
+<br>
 Joii_poll_API is created by using Express, Nodejs, MongoDB.
 
 
@@ -47,10 +48,10 @@ The following is the link to be used in Postman:-
 ### API to Create a question: 
         http://localhost:8000/questions/create
 
-### APT to Add options to a question: 
+### API to Add options to a question: 
         http://localhost:8000/questions/:id/options/create
 
-### APT to Add a vote to an option of question: 
+### API to Add a vote to an option of question: 
         http://localhost:8000/options/:id/add_vote
 
 ### API to Delete an Option: 
