@@ -22,7 +22,7 @@ Joii_poll_API is created by using Express, Nodejs, MongoDB.
 2. Change the current working directory to the location where you want the cloned directory.
 
    ```
-   $ git clone https://github.com/kartiksarwan2017/Polling_System_API
+   $ git clone https://github.com/joshita014/Joii_poll_API.git
 
    ```
 
