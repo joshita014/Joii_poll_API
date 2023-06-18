@@ -14,6 +14,9 @@ Joii_poll_API is created by using Express, Nodejs, MongoDB.
 - Users can delete an option -> An option can't be deleted if it has even one vote given to it.
 - Users can view a question with it's options and all the votes given to it.
 
+## Hosting of my project:
+
+If you want to run my web app replace " http://localhost:8000 " with " https://joii-poll-api.onrender.com "
 
 ## To run the project on your local machine:
 
@@ -44,6 +47,7 @@ Joii_poll_API is created by using Express, Nodejs, MongoDB.
 ## We are using Postman to test these API's
 
 The following is the link to be used in Postman:-
+
 
 ### API to Create a question: 
         http://localhost:8000/questions/create
