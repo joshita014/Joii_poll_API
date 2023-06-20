@@ -4,6 +4,8 @@ const router = express.Router();
 //Access to the Controllers for creating API
 const questionController = require("../controller/questions");
 const optionController = require("../controller/options");
+const homeCount=require('../controller/home');
+router.get('/',homeCount.home);
 
 //To create a new question
 router.post("/questions/create", questionController.createQuestions);
