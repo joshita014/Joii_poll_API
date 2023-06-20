@@ -1,6 +1,7 @@
 # Joii_poll_API
 
 Joii_poll_API is a Polling API which is an Open Application. 
+<br>
 Joii_poll_API is created by using Express, Nodejs, MongoDB.
 
 
@@ -13,6 +14,9 @@ Joii_poll_API is created by using Express, Nodejs, MongoDB.
 - Users can delete an option -> An option can't be deleted if it has even one vote given to it.
 - Users can view a question with it's options and all the votes given to it.
 
+## Hosting of my project:
+
+If you want to run my web app replace " http://localhost:8000 " with " https://joii-poll-api.onrender.com "
 
 ## To run the project on your local machine:
 
@@ -21,7 +25,7 @@ Joii_poll_API is created by using Express, Nodejs, MongoDB.
 2. Change the current working directory to the location where you want the cloned directory.
 
    ```
-   $ git clone https://github.com/kartiksarwan2017/Polling_System_API
+   $ git clone https://github.com/joshita014/Joii_poll_API.git
 
    ```
 
@@ -44,13 +48,14 @@ Joii_poll_API is created by using Express, Nodejs, MongoDB.
 
 The following is the link to be used in Postman:-
 
+
 ### API to Create a question: 
         http://localhost:8000/questions/create
 
-### APT to Add options to a question: 
+### API to Add options to a question: 
         http://localhost:8000/questions/:id/options/create
 
-### APT to Add a vote to an option of question: 
+### API to Add a vote to an option of question: 
         http://localhost:8000/options/:id/add_vote
 
 ### API to Delete an Option: 
